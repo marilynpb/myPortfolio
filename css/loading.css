@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Product-sans';
+  src: url('../font/product-sans/Product\ Sans\ Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+  background-color: #13161B;
+  font-family: 'Product-sans', sans-serif;
+}
+
+h1{
+  font-weight: bolder;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .loading-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    animation: loading 2s ease-in-out infinite;
+  }
+  
+  .loading-text {
+    margin-top: 10px;
+  }
+  
+  @keyframes loading {
+    0% {
+      width: 0%;
+      background-color: #f43831;
+    }
+    50% {
+      width: 50%;
+      background-color: rgb(247, 248, 247);
+    }
+    100% {
+      width: 100%;
+      background-color: #f43831;
+    }
+  }
+  

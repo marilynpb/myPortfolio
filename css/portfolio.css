@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Product-sans';
+    src: url('../font/product-sans/Product\ Sans\ Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #13161B;
+    font-family: 'Product-sans', sans-serif;
+    color: #FFFFFF;
+}
+
+nav{
+    background-color: #090909af;
+    color: #FFFFFF;
+}
+
+nav li a{
+    font-size: 19px!important;
+}
+
+nav li a:hover{
+    text-decoration: 2px underline #f43831;
+    color: #f43831!important;
+}
+
+
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button{
+    min-width: 250px;
+}
+
+span{
+    color: #f43831;
+}
+
+.bg-red{
+    background-color: #f43831;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.bg-red:hover{
+    background-color: #c9241e;
+    color: #FFFFFF;
+}
+
+p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#close{
+    color: #38353585
+}
+
+.modal span{
+    color: #38353585;
+    font-weight: bold;
+}
+
+.modal a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.sr-only{
+    color: #FFFFFF!important;
+}
+.modal a:hover{
+    color: #FFFFFF;
+}
+
+.modal img{
+    width: 300px;
+    height: 400px;
+}
+
+.modal p{
+    color: #383535;
+    font-size: 18px;
+}
+
+
+.container-btns-carousel{
+    background-color: #38353585;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+}
+
+.portfolio-item img{    
+    width: 90%;
+    height: 200px;
+}
+
+.navbar-toggler-icon {
+    float: right;
+}

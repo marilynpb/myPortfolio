@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Product-sans';
+    src: url('../font/product-sans/Product\ Sans\ Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    max-height: 100vh;
+    background-color: #13161B;
+    font-family: 'Product-sans', sans-serif;
+    color: #FFFFFF;
+    overflow: hidden;
+    background-image: url('../img/Sin\ título-2adawd.png');
+    background-size: 100% 100%;
+}
+
+nav{
+    background-color: #0b0b0b;
+    color: #FFFFFF;
+}
+
+nav li a{
+    font-size: 19px!important;
+}
+
+nav li a:hover{
+    text-decoration: 2px underline #f43831;
+    color: #f43831!important;
+}
+
+nav span{
+    color: #f43831!important;
+    text-transform: none;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.bg-blur{
+    height: 95vh;
+    background-color: #0a0a0ab3;
+    width: 53.5%;
+}
+
+.section-left{
+    height: 95vh;
+}
+
+span{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.wrapper .name {
+    color: #f43831;
+}
+
+.wrapper .fullstack {
+    color: #f43831;
+}
+
+.wrapper .frontend {
+    color: #f43831;
+}
+
+.visible {
+    display: inline;
+}
+
+.wrapper span:not(.visible) {
+    display: none;
+}
+
+.cont-bts a{
+    min-width: 250px;
+}
+
+.bg-red{
+    background-color: #f43831;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.bg-red:hover{
+    background-color: #c9241e;
+    color: #FFFFFF;
+}
+
+.border-red{
+    border: 2px solid #f43831;
+    color:#f43831;
+    text-transform: uppercase;
+}
+
+.border-red:hover{
+    background-color: #c9241e;
+    color: #FFFFFF;
+}
+
+p{
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+@media (max-width:1367px) {
+    span{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:1200px) {
+    body{
+        background-image: url('../img/DALL·E\ 2023-05-10\ 22.53.09\ -\ landscape\ blurred\ lights.png');
+        background-size: 160% 100%;
+        background-position: right;
+    }
+    .bg-blur{
+        width: 100%;
+    }
+}
+
+@media (max-width:775px) {
+    .cont-bts a{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:660px) {
+    .wrapper{
+        height: 150px;
+    }
+    
+    .cont-bts a{
+        min-width: 200px;
+        max-width: 200px;
+        font-size: 18px;
+    }
+    body{
+        max-height: auto;
+    }
+}
+
+@media (max-width:400px) {
+    .cont-bts a{
+        min-width: 100%;
+        max-width: 100%;
+        font-size: 18px;
+    }
+}
+
+.no-animation {
+    animation: none;
+}
+.navbar-toggler-icon {
+    float: right;
+}

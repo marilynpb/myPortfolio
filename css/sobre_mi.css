@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Product-sans';
+    src: url('../font/product-sans/Product\ Sans\ Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #13161B;
+    font-family: 'Product-sans', sans-serif;
+    color: #FFFFFF;
+}
+
+nav{
+    background-color: #090909af;
+    color: #FFFFFF;
+}
+nav li a{
+    font-size: 19px!important;
+}
+
+nav li a:hover{
+    text-decoration: 2px underline #f43831;
+    color: #f43831!important;
+}
+
+.img-about{
+    width: 100%;
+    box-shadow: blue 0px 0px 0px 2px inset, #13161B 10px -10px 0px -3px, #f43831 10px -10px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.link-download{
+    width: 270px!important;
+}
+
+span{
+    color: #f43831;
+}
+
+.bg-red{
+    background-color: #f43831;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.bg-red:hover{
+    background-color: #c9241e;
+    color: #FFFFFF;
+}
+
+p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/*Skills*/
+.progress span{
+    color: #FFFFFF;
+    letter-spacing: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.progress-bar{
+    background-color: #f43831;
+}
+
+table{
+    font-size: 20px;
+}
+
+@media (max-width:430px) {
+    table{
+        font-size: 16px;
+    }
+    
+    .link-download{
+        width: 200px!important;
+        font-size: 15px;
+    }
+}
+
+.navbar-toggler-icon {
+    float: right;
+}
