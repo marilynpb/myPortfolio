@@ -17,7 +17,7 @@ nav{
 }
 
 nav li a{
-    font-size: 19px!important;
+    font-size: 22px!important;
 }
 
 nav li a:hover{
@@ -51,7 +51,7 @@ span{
 }
 
 p{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: lighter;
 }
 
@@ -85,7 +85,6 @@ p{
     font-size: 18px;
 }
 
-
 .container-btns-carousel{
     background-color: #38353585;
     border-radius: 5px;
@@ -100,4 +99,17 @@ p{
 
 .navbar-toggler-icon {
     float: right;
+}
+
+@media (max-width: 992px) {
+    .portfolio-item img{    
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    p{
+        font-size: 22px;
+    }
 }
