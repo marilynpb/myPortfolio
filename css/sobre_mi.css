@@ -66,15 +66,23 @@ p{
     font-size: 22px;
     font-weight: bold;
 }
-.progress-bar{
-    background-color: #f43831;
-}
 
 table{
     font-size: 22px;
 }
 
+.progress-bar{
+    background-color: #f43831;
+}
+
+.navbar-toggler-icon {
+    float: right;
+}
+
 @media (max-width:430px) {
+    .progress span{
+        font-size: 16px;
+    }
     table{
         font-size: 16px;
     }
@@ -88,8 +96,6 @@ table{
     }
 }
 
-.navbar-toggler-icon {
-    float: right;
-}
+
 
 

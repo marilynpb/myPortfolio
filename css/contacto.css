@@ -35,7 +35,7 @@ h1{
     font-weight: bold;
 }
 
-button{
+main button{
     min-width: 250px;
 }
 
@@ -109,7 +109,7 @@ form{
     p{
         font-size: 17px;
     }
-    button{
+    main button{
         min-width: 200px;
     }
     
